@@ -1,0 +1,86 @@
+body {
+    color: rgb(238, 235, 192);
+    background: rgb(17, 17, 17);
+    margin: 0px;
+    font-family: "Baskervville SC", serif;
+    margin-bottom: 100px;
+}
+
+
+
+
+header {
+    border-bottom: solid 2px rgb(255, 196, 0);
+    padding: 50px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+
+
+.chamada {
+    background: rgb(160, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+
+
+
+h1 {
+    font-size: 50px;
+}
+
+
+
+
+p {
+    font-size: 30px;
+}
+
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+}
+
+
+
+.categoria {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+
+
+.categoria-videos img {
+    opacity: 0.4;
+    height: 200px;
+}
+
+
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(221, 182, 6);
+}
+
+
+
+.categoria h2 {
+    color: rgb(255, 166, 0);
+}
+
+
+
